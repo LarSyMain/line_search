@@ -7,7 +7,7 @@ int main()
     int p;
     cin >> p;
 
-    for (int i = 0; i < sizeof(arr); i++) {
+    for (int i = 0; i < sizeof(arr) / sizeof(int); i++) {
         if (p == arr[i]) {
             cout << i+1;
         }
